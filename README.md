@@ -17,8 +17,9 @@ The source code of the program can be found in the 'main' directory.
 If you are not on windows, you can always try by installing opencv and python and running the source code.
 The program requires an arguement, i.e, the cascade file, which should be `haarcascade_frontalface_alt.xml`.
 
-Controls ( Once window is open ): 
-    Press e : to exit ( THE WINDOW KEEPS REOPENING EVEN WHEN YOU 'X'OUT or CLOSE IT )
-    Press c : to change rendering mode ( From RGBA to GREYSCALE )
+Controls ( Once window is open ):   
+    Press e : to exit ( THE WINDOW KEEPS REOPENING EVEN WHEN YOU 'X'OUT or CLOSE IT )  
+    Press c : to change rendering mode ( From RGBA to GREYSCALE )  
     
-    
+The program draws a rectangle around detected faces.  
+Note: OPENCV uses machine learning algorithms inorder to find and detect faces. It is not guaranteed that it will detect all faces and is 100% accurate.
